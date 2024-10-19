@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "dark", "default" "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -113,7 +113,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yuyuan Zhang (張昱元)"
+  name             : "Yuyuan Zhang"
   avatar           : "/assets/images/bio_hku_compressed.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Ph.D. candidate in Economics at HKU Buesiness School, specializing in international finance."
   location         : "Hong Kong"
