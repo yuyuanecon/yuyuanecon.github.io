@@ -113,9 +113,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yuyuan Zhang"
-  name             : "張昱元"
-  avatar           : "/assets/images/bio_hku.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Yuyuan Zhang (張昱元)"
+  avatar           : "/assets/images/bio_hku_compressed.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Ph.D. candidate in Economics at HKU Buesiness School, specializing in international finance."
   location         : "Hong Kong"
   #email            : "yzhang20@connect.hku.hk"
