@@ -120,10 +120,10 @@ author:
   #email            : "yzhang20@connect.hku.hk"
   links:
      - label: "LinkedIn Profile"
-       icon: "fab-brands fa-linkedin"
+       #icon: "fab-brands fa-linkedin"
        url: "https://www.linkedin.com/in/yuyuan-zhang-06b122314"
      - label: "yzhang20@connect.hku.hk"
-       icon: "fa-solid fa-envelope"
+       #icon: "fa-solid fa-envelope"
       #url: "yzhang20@connect.hku.hk"
    # - label: "Website"
      # icon: "fas fa-fw fa-link"
