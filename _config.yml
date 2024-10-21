@@ -117,7 +117,7 @@ author:
   avatar           : "/assets/images/bio_hku_compressed.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Ph.D. candidate in Economics at HKU Buesiness School, specializing in international finance."
   location         : "1120, K.K. Leung Building, The University of Hong Kong, Pokfulam, HK"
-  #email            : "yzhang20@connect.hku.hk"
+  email            : "yzhang20@connect.hku.hk"
   links:
      - label: "LinkedIn Profile"
        #icon: "fab-brands fa-linkedin"
