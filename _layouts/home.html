@@ -1,41 +1,23 @@
 ---
+layout: archive
 ---
 
-<!doctype html>
-{% include copyright.html %}
-<html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+{{ content }}
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
-    {% include_cached skip-links.html %}
-    {% include_cached masthead.html %}
+<div class="content">
+  <section id="me">
+      <p>
+          I am a fifth year Ph.D. candidate in Economics at HKU Business School, The University of Hong Kong with research interests include international macroeconomics and finance. My current research features themes such as the Global Financial Cycle, the international transimission of monetary policy, interest rates and exchange rates.
+      </p>
+  </section>
 
-    <div class="content">
-      <section id="me">
-          <p>
-              I am a fifth year Ph.D. candidate in Economics at HKU Business School, The University of Hong Kong with research interests include international macroeconomics and finance. My current research features themes such as the Global Financial Cycle, the international transimission of monetary policy, interest rates and exchange rates.
-          </p>
-      </section>
-  
-      <section id="research">
-          <h2>Research</h2>
-          <ul>
-              <li>Paper Title 1 - Brief description or findings.</li>
-              <li>Paper Title 2 - Brief description or findings.</li>
-          </ul>
-      </section>
-  </div>
+  <section id="research">
+      <h2>Research</h2>
+      <ul>
+          <li>Paper Title 1 - Brief description or findings.</li>
+          <li>Paper Title 2 - Brief description or findings.</li>
+      </ul>
+  </section>
+</div>
 
-    <div id="footer" class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-  </body>
-</html>
+{% include paginator.html %}
