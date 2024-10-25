@@ -122,17 +122,23 @@
    ========================================================================== */
 
    .author__avatar {
-    display: block; // Change from table-cell to block to use full width
-    width: 56px; // Use full width of the sidebar
-    height: 56px; // Maintain aspect ratio
+    display: table-cell;
+    vertical-align: top;
+    width: 56px;
+    height: 56px;
   
-    img {
+    @include breakpoint($large) {
+      display: block;
       width: auto;
       height: auto;
+    }
+  
+    img {
+      max-width: 110px;
   
       @include breakpoint($large) {
-        padding: 5px; // Adjust padding as needed
-        border: 1px solid $border-color; // Optional border
+        padding: 5px;
+        border: 1px solid $border-color;
       }
     }
   }
