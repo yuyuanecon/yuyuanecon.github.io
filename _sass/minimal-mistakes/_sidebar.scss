@@ -122,9 +122,10 @@
    ========================================================================== */
 
    .author__avatar {
-    display: block;
-    width: 90px;
-    height: 90px;
+    display: table-cell;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
   
     @include breakpoint($large) {
       display: block;
@@ -133,6 +134,7 @@
     }
   
     img {
+      max-width: 110px;
   
       @include breakpoint($large) {
         padding: 5px;
