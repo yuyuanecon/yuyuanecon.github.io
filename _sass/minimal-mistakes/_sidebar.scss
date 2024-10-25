@@ -123,12 +123,12 @@
 
    .author__avatar {
     display: block; // Change from table-cell to block to use full width
-    width: 60px; // Use full width of the sidebar
-    height: 60px; // Maintain aspect ratio
+    width: 56px; // Use full width of the sidebar
+    height: 56px; // Maintain aspect ratio
   
     img {
-      width: 50%; // Ensure the image takes the full width
-      height: auto; // Maintain aspect ratio
+      width: auto;
+      height: auto;
   
       @include breakpoint($large) {
         padding: 5px; // Adjust padding as needed
