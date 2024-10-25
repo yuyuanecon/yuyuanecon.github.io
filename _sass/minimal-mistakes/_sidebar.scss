@@ -128,7 +128,7 @@
   
     @include breakpoint($large) {
       display: block;
-      width: 80%;
+      width: auto;
       height: auto;
     }
   
