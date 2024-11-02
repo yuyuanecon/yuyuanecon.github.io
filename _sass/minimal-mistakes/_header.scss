@@ -1,0 +1,51 @@
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+
+   .page__header {
+    @include clearfix;
+    float: inline-start;
+    margin-inline: 0;
+    width: 100%;
+    margin-bottom: 3em; // Adjust margin as needed
+    color: $muted-text-color;
+    -webkit-animation: $intro-transition;
+    animation: $intro-transition;
+    -webkit-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+    background-color: $header-background-color; // Define this variable in _variables.scss
+  
+    header {
+      @include clearfix;
+      margin-inline: auto;
+      margin-top: 2em;
+      max-width: 100%;
+      padding: 0 1em 2em;
+  
+      @include breakpoint($x-large) {
+        max-width: $x-large;
+      }
+    }
+  
+    a {
+      color: inherit;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    .fas,
+    .fab,
+    .far,
+    .fal {
+      color: $muted-text-color;
+    }
+  }
+  /*
+  .page__header-title {
+    font-family: $global-font-family; // Ensure this variable is defined
+    font-size: $type-size-7; // Adjust size as needed
+  }
+    */
