@@ -13,7 +13,7 @@
     animation: $intro-transition;
     -webkit-animation-delay: 0.45s;
     animation-delay: 0.45s;
-    background-color: $header-background-color; // Define this variable in _variables.scss
+    background-color: $footer-background-color; // Define this variable in _variables.scss
   
     header {
       @include clearfix;
