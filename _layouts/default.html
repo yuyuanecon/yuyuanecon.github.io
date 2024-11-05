@@ -31,7 +31,12 @@
       </footer>
     </div>
 
-    {% include header.html %}
+    <div id="header" class="page__header">
+      <header>
+          {% include header/custom.html %}
+          {% include_cached header.html %}
+      </header>
+  </div>
 
     {% include scripts.html %}
   </body>
