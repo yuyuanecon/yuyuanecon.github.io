@@ -10,7 +10,7 @@
   @include clearfix;
   margin: 0 auto;
   max-width: 100%;
-  /*padding-inline: 1em;*/
+  padding-inline: 1em;
   font-family: $sans-serif;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
@@ -176,7 +176,7 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  background: $background-color;
+  background: $footer-background-color;
 
   a {
     display: block;
