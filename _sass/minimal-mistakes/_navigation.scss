@@ -176,6 +176,7 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
+  width: 100%; // Add this line to ensure it takes the full width
   background: $footer-background-color;
 
   a {
