@@ -177,6 +177,7 @@
   align-items: center;
   min-height: $nav-height;
   width: 100%; // Add this line to ensure it takes the full width
+  margin: 0; // Reset any margins if necessary
   background: $footer-background-color;
 
   a {
