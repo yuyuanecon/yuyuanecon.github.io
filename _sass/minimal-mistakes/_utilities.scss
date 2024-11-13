@@ -124,10 +124,17 @@ $text-alignments: left, right, start, end, center, justify;
 .cf {
   clear: both;
 }
-
+/*
 .wrapper {
   margin-inline: auto;
   width: 100%;
+}
+*/
+.wrapper {
+  margin-inline: auto;
+  width: 100%;
+  max-width: none; // Add this if needed
+  padding: 0; // Add this if needed
 }
 
 /*
