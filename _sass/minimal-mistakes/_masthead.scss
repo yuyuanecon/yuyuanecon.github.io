@@ -16,8 +16,8 @@
   &__inner-wrap {
     @include clearfix;
     margin-inline: auto;
-    padding: 1em;
-    /*padding: 0;  // Change this from 1em to 0*/
+    /*padding: 1em;*/
+    padding: 0;  // Change this from 1em to 0
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -28,7 +28,8 @@
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
-      padding: 1em;
+      /*padding: 1em;*/
+      padding: 0;  // Change this from 1em to 0
       max-width: 100%;  // Change this from $max-width to 100%
       /*
       max-width: $max-width;
