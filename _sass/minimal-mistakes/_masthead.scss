@@ -30,7 +30,10 @@
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
+      max-width: 100%;  // Change this from $max-width to 100%
+      /*
       max-width: $max-width;
+      */
     }
 
     nav {
