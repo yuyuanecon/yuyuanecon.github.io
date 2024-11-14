@@ -16,10 +16,8 @@
   &__inner-wrap {
     @include clearfix;
     margin-inline: auto;
-    /*
     padding: 1em;
-    */
-    padding: 0;  // Change this from 1em to 0
+    /*padding: 0;  // Change this from 1em to 0*/
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -30,6 +28,7 @@
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
+      padding: 1em;
       max-width: 100%;  // Change this from $max-width to 100%
       /*
       max-width: $max-width;
@@ -57,7 +56,6 @@
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
-  padding-left: 1em;     // Add this line (16px space)
   // z-index: 20;
 }
 
