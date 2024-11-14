@@ -12,6 +12,7 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  padding-left: 1em;  // Add this line to ensure consistent left padding
 
   &__inner-wrap {
     @include clearfix;
