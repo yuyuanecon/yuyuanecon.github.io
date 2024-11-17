@@ -215,7 +215,8 @@
     }
 
     &.site-title {
-      margin-inline-start: 0;
+      /*margin-inline-start: 0;*/
+      margin-inline-start: 1em;
       color: $background-color;
       /*color: $muted-text-color;*/
     }
