@@ -10,7 +10,8 @@
   @include clearfix;
   margin: 0 auto;
   max-width: 100%;
-  padding-inline: 1em;
+  // padding-inline: 1em;
+  padding-inline: 0;
   font-family: $sans-serif;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
