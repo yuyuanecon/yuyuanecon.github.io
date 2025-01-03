@@ -123,7 +123,6 @@
    ========================================================================== */
 
    .author__avatar {
-    margin-top: 100px;
     display: table-cell;
     vertical-align: top;
     width: 100px;
@@ -167,6 +166,11 @@
   }
 }
 */
+
+.avatar-placeholder {
+  height: 60px; // Adjust this value to add space above the avatar
+}
+
 .author__content {
   display: table-cell;
   vertical-align: top;
