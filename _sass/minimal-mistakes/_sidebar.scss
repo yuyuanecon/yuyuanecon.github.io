@@ -361,6 +361,7 @@
 
     &.sticky {
       float: none;
+      top: 60px; // Adjust this value to match the height of the masthead
     }
   }
 
