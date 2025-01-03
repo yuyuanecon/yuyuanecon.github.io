@@ -123,6 +123,7 @@
    ========================================================================== */
 
    .author__avatar {
+    margin-top: 40px;
     display: table-cell;
     vertical-align: top;
     width: 100px;
@@ -361,7 +362,6 @@
 
     &.sticky {
       float: none;
-      top: 60px; // Adjust this value to match the height of the masthead
     }
   }
 
