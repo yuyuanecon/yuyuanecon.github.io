@@ -116,7 +116,7 @@ author:
   name             : "MARCO YUYUAN ZHANG"
   avatar           : "/assets/images/bio_hku_compressed.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Quantitative Analyst, Index Investment Strategy, S&P Dow Jones Indices."
-  location         : "Level 3, Three Exchange Square, 8 Connaught Place, Central, Hong Kong"
+  #location         : "N/A"
   #email            : "yzhang20@connect.hku.hk"
   links:
      #- label: "Curriculum Vitae"
